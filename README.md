@@ -29,7 +29,7 @@
   ## Motivation
   Why was this project started.
 
-  ## Installation ![npm](https://img.shields.io/npm/v/npm?color=pink&style=plastic) 
+  ## Installation
   No installation needed.  Click *[here](https://jmeggles.github.io/19_User_Directory/)* to use the deployed app.
 
   ## How_to_use
