@@ -1,4 +1,5 @@
-# Project Name ![GitHub deployments](https://img.shields.io/github/deployments/badges/shields/shields-staging?color=lightgrey)
+# Project Name 
+<!-- ![GitHub deployments](https://img.shields.io/github/deployments/badges/shields/shields-staging?color=green) -->
   User Directory
 
   ## Overview 
@@ -51,4 +52,4 @@
 
   ## Contribute
   For comments and/or questions, contact Jody Eggleston via 
-  [Linkedin](https://www.linkedin.com/in/jody-eggleston/)
+  [![Linkedin Icon](https://img.shields.io/badge/-%20linkedin-blue?style=flat-square&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/jody-eggleston/)](https://www.linkedin.com/in/jody-eggleston/)
