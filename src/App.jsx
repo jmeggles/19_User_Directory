@@ -1,13 +1,30 @@
 import React from "react";
-import UserData from "./pages/UserData";
-import "./index.css";
+import axios from "axios";
+import Title from "./components/Title";
+import SearchBar from "./pages/SearchBar";
+import "./style.css";
 
-const App = () => {
-  return (
-    <div className="App">
-      <UserData />
-    </div>
-  );
-};
+class App extends React.Component {
+  state = {
+    employees: [],
+  };
+
+  componentDidMount() {
+    axios.get("https://randomuser.me/api/?results=250&nat=us").then((res) => {
+      this.setState({ employees: res.data.results });
+    });
+  }
+
+  render() {
+    return (
+      <div className="App">
+        <Title />
+        {this.state.employees.length > 0 && (
+          <SearchBar employees={this.state.employees} />
+        )}
+      </div>
+    );
+  }
+}
 
 export default App;

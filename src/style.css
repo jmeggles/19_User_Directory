@@ -1,17 +1,86 @@
-* {
+.App {
+  padding-top: 2%;
+  text-align: center;
+  justify-content: center;
+  display:block;
+  color: white;
+  background-color: #7a99b2;
+}
+
+.form {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 20% 25% 5% 5% 15% 30%;
+  grid-template-rows: 150px;
+  grid-gap: 2px;
+  align-items: center;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+  background-color: #a7abab;
+  
+}
+
+.form {
+  border-color: black;
+  background-color: #7a99b2;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 20% 25% 5% 5% 15% 30%;
+  grid-template-rows: 30px;
+  grid-gap: 2px;
+  align-items: center;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+  color: white;
+  background-color: #7a99b2;
+  padding: 10px;
+}
+
+.name {
+  cursor: pointer;
+}
+
+/* * {
   box-sizing: border-box;
   font-family: sans-serif;
 }
 
-html, body, #root {
+html,
+body,
+#root {
   padding: 0;
   margin: 0;
   height: 100%;
-}
+  background-color: #9c9c9f;
+  flex: auto;
+} */
 
 
+
+/* body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+
+/* .search-font {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+} */
+/* ************************************************** */
 /* from original react set up */
- .App {
+/* .App {
   text-align: center;
 }
-
+.header {
+  padding: 100px;
+} */
+/* **************************************************** */

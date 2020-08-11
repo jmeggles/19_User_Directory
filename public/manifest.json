@@ -1,6 +1,6 @@
 {
   "short_name": "User Directory",
-  "name": "User Directory",
+  "name": "User Directory with React",
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",

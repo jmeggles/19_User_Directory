@@ -1,6 +1,6 @@
 {
   "homepage": "https://jmeggles.github.io/19_User_Directory/",
-  "name": "user-directory",
+  "name": "client",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
