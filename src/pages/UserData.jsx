@@ -19,6 +19,7 @@ class UserData extends React.Component {
     }
   }
 
+//   doesn't work on gh pages only when updating on server
   componentDidUpdate(prevProps) {
       if (this.props.empList !== prevProps.empList) {
           this.setState({

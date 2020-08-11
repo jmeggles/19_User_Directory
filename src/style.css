@@ -44,8 +44,9 @@
   padding: 10px;
 }
 
-.name {
+.name:hover {
   cursor: pointer;
+  color: blue;
 }
 
 /* * {

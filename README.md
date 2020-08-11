@@ -1,9 +1,8 @@
-# Project Name 
-<!-- ![GitHub deployments](https://img.shields.io/github/deployments/badges/shields/shields-staging?color=green) -->
-  User Directory
-
+# User Directory ![GitHub deployments](https://img.shields.io/github/deployments/badges/shields/shields-staging?color=green)
+ 
   ## Overview 
-  A React app directory where users/employees can be viewed by a filter of first or last name.
+  A React app directory where users/clients/employees can be viewed by a filter of the clients' last name or searched by any name. <br> 
+  *(Disclaimer: This project uses a random generator with fake user information as templates to show app functionality.)* 
 
   ## Table of Contents:
   - [Links to Deployed app](#Links (*deployed app and repo*))
@@ -21,29 +20,30 @@
   - [GitHub Repo](https://github.com/jmeggles/19_User_Directory)
 
  ## Screenshots_and_Vids 
-  - ![Short vid of deployed project](google.doc)
-  - ![Screenshot of deployed project](./assets/images/screenshot1.png)  
-  - ![Screenshot of deployed project](./assets/images/screenshot2.png)
+  - ![Short vid of deployed project](https://media.giphy.com/media/JqDjqkSajBOWe2VyiT/giphy.gif)
+  - ![Screenshot of deployed project](./public/assets/images/screenshot1.png)  
+  <!-- - ![Screenshot of deployed project](./assets/images/screenshot2.png)
   - ![Screenshot of deployed project](./assets/images/screenshot3.png)  
-  - ![Screenshot of deployed project](./assets/images/screenshot4.png)
+  - ![Screenshot of deployed project](./assets/images/screenshot4.png) -->
   
   ## Motivation
-  Why was this project started.
+  This project is made to simplify client or employee non-sensitive search info.  
 
   ## Installation
   No installation needed.  Click *[here](https://jmeggles.github.io/19_User_Directory/)* to use the deployed app.
 
   ## How_to_use
-  Once the React application is opened, sort users by first or last name to view that person's information. *(Disclaimer: This uses a random generator with fake names, numbers, and other information as templates to show app functionality.)*  
+  Once the React application is opened, sort users by first or last name to view that person's information. <br>
+  *(Disclaimer: This uses a random generator with fake user information as templates to show app functionality.)*  
 
   ## Benefit
-  An employee or manager would benefit greatly from being able to view non-sensitive data about other employees sorted/filtered by selected column such as first and last names.
+  An employee or manager would benefit greatly from being able to view non-sensitive data about employees or clients sorted or filtered by selected column such as first and last names.
 
   ## Credits
   John Dinsmore, Jorge Alvarez, & Ben Benson with *WebDev Tutoring*
 
   ## Tests
-
+  Testing was not done prior to building but console logs and run checks were made throughout the process.
  
   ## License ![APM](https://img.shields.io/apm/l/npm?color=pink&style=plastic)
   [MIT License](https://opensource.org/licenses/MIT)
