@@ -19,13 +19,13 @@ class UserData extends React.Component {
     }
   }
 
-  // componentDidUpdate(prevProps) {
-  //     if (this.props.empList !== prevProps.empList) {
-  //         this.setState({
-  //             sortedEmployees: this.props.empList
-  //         })
-  //     }
-  // }
+  componentDidUpdate(prevProps) {
+      if (this.props.empList !== prevProps.empList) {
+          this.setState({
+              sortedEmployees: this.props.empList
+          })
+      }
+  }
 
   sortName = () => {
     let sortEmp = [];
