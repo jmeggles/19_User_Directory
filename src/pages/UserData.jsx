@@ -19,6 +19,14 @@ class UserData extends React.Component {
     }
   }
 
+  // componentDidUpdate(prevProps) {
+  //     if (this.props.empList !== prevProps.empList) {
+  //         this.setState({
+  //             sortedEmployees: this.props.empList
+  //         })
+  //     }
+  // }
+
   sortName = () => {
     let sortEmp = [];
     if (this.state.alphabetical) {
@@ -38,7 +46,7 @@ class UserData extends React.Component {
         return 0;
       });
     }
-    
+
     this.setState({
       alphabetical: !this.state.alphabetical,
       sortedEmployees: sortEmp,
@@ -49,12 +57,24 @@ class UserData extends React.Component {
     return (
       <div>
         <div className="header">
-          <div><p>Photo</p></div>
-          <div><p onClick={this.sortName} className="name"><u>Name</u>: &#x2195;</p>{" "}</div>
+          <div>
+            <p>Photo</p>
+          </div>
+          <div>
+            <p onClick={this.sortName} className="name">
+              <u>Name</u>: &#x2195;
+            </p>{" "}
+          </div>
           <div></div>
-          <div><p>Age</p></div>
-          <div><p>Phone</p></div>
-          <div><p>Email</p></div>
+          <div>
+            <p>Age</p>
+          </div>
+          <div>
+            <p>Phone</p>
+          </div>
+          <div>
+            <p>Email</p>
+          </div>
         </div>
 
         {this.state.sortedEmployees.length > 0 &&
