@@ -16,8 +16,8 @@
   - [Contribute](#Contribute)
 
  ## Links (*deployed app and repo*)
-  - [GitHub Pages](https://jmeggles.github.io/19_User_Directory/)
-  - [GitHub Repo](https://github.com/jmeggles/19_User_Directory)
+  - [GitHub Pages](https://jmeggles.github.io/User_Directory/)
+  - [GitHub Repo](https://github.com/jmeggles/User_Directory)
 
  ## Screenshots_and_Vids 
   - ![Short vid of deployed project](https://media.giphy.com/media/JqDjqkSajBOWe2VyiT/giphy.gif)
