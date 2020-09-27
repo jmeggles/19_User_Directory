@@ -13,7 +13,7 @@
   - [Benefit](#Benefit)
   - [License](#License)
   - [Tests](#Tests)
-  - [Contribute](#Contribute)
+  - [Contact](#Contact)
 
  ## Links (*deployed app and repo*)
   - [GitHub Pages](https://jmeggles.github.io/User_Directory/)
@@ -30,7 +30,7 @@
   This project is made to simplify client or employee non-sensitive search info.  
 
   ## Installation
-  No installation needed.  Click *[here](https://jmeggles.github.io/19_User_Directory/)* to use the deployed app.
+  No installation needed.  Click *[here](https://jmeggles.github.io/User_Directory/)* to use the deployed app.
 
   ## How_to_use
   Once the React application is opened, sort users by first or last name to view that person's information. <br>
@@ -38,9 +38,6 @@
 
   ## Benefit
   An employee or manager would benefit greatly from being able to view non-sensitive data about employees or clients sorted or filtered by selected column such as first and last names.
-
-  ## Credits
-  John Dinsmore, Jorge Alvarez, & Ben Benson with *WebDev Tutoring*
 
   ## Tests
   Testing was not done prior to building but console logs and run checks were made throughout the process.
@@ -50,6 +47,6 @@
   
   Copyright © 2020 Jody Eggleston 
 
-  ## Contribute
+  ## Contact
   For comments and/or questions, contact Jody Eggleston via 
   [![Linkedin Icon](https://img.shields.io/badge/-%20linkedin-blue?style=flat-square&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/jody-eggleston/)](https://www.linkedin.com/in/jody-eggleston/)

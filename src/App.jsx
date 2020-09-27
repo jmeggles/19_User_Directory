@@ -1,6 +1,7 @@
 import React from "react";
 import axios from "axios";
 import Title from "./components/Title";
+import Footer from "./components/Footer";
 import SearchBar from "./pages/SearchBar";
 import "./style.css";
 
@@ -22,6 +23,7 @@ class App extends React.Component {
         {this.state.employees.length > 0 && (
           <SearchBar employees={this.state.employees} />
         )}
+        <Footer />
       </div>
     );
   }

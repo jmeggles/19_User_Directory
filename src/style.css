@@ -49,6 +49,43 @@
   color: blue;
 }
 
+.footerSticky {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 3em;
+  margin-bottom: -.5em;
+  background-color: #676c6d7a;
+  color: black;
+}
+
+.footer-icon {
+  color: aqua;
+  padding: 10px;
+}
+
+.footer-icon:hover {
+color: deeppink;
+}
+
+.signature {
+font-family: "Euphoria Script", cursive;
+color: aqua;
+font-size: 25px;
+padding: 10px;
+
+}
+.signature:hover {
+color: deeppink;
+}
+
 /* * {
   box-sizing: border-box;
   font-family: sans-serif;
